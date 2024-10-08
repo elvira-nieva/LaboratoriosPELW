@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #f6f0dd;
+    background-color: rgb(246, 240, 221);
     font-family: 'Times New Roman', Times, serif;
     margin: 50;
 }
@@ -74,4 +74,64 @@ footer {
  figure img {
    width: 350px;
    
+}
+form {
+    max-width: 550px; 
+    margin: 0 auto; 
+    padding: 20px; 
+ 
+}
+label {
+    display: inline-block; 
+    width: auto; 
+    margin-top: 10px;
+    margin-bottom: 5px; 
+    text-align: left;
+}
+
+fieldset.lista{
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+   
+    background-color: #5163ad;
+    color: aliceblue; 
+    padding: 7px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+div.boton{
+    text-align: right;
+    margin-right: 20px; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+ 
+div.botones {
+   margin-top: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+div.botones a{
+    color: #3832a7;
+}
+table {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 30%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px; 
+    text-align: left;
 }
