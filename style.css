@@ -7,7 +7,6 @@ body {
 }
 
 header {
-    font-family: myFirstFont;
     background-color: #5163ad;
     color: aliceblue;
     padding: 10px 0;
@@ -18,7 +17,8 @@ h1 {
     background-color: #5163ad;
     color: aliceblue;  
     text-align: center;
-    font-family: "Goblin One", serif;
+    font-family: "Merriweather", serif;
+
 }
 
 h2{
@@ -135,3 +135,28 @@ th, td {
     padding: 8px; 
     text-align: left;
 }
+.header-content {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+@keyframes rotar{
+    0%{
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.logo {
+    margin-left: 10px;
+    animation: rotar 1.3s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+article.acercade {
+    max-height: 300px; 
+    overflow-y: auto; 
+  }
+  
+ 
