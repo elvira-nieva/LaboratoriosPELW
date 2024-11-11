@@ -159,4 +159,13 @@ article.acercade {
     overflow-y: auto; 
   }
   
- 
+ .leermas {
+    background-color: #5163ad;
+    color: aliceblue;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+ }
