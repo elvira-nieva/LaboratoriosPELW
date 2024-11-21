@@ -169,3 +169,50 @@ article.acercade {
     display: inline-block;
     margin-top: 10px;
  }
+
+ .game-details {
+    font-size: 1.1rem;
+    color: #000000; /* Color llamativo */
+    text-align: center;
+    margin: 10px auto;
+    max-width: 600px;
+    
+   
+}
+
+/* Play Button */
+#playButton {
+    
+    color: white;
+    background-color: #5163ad;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out; /* Animación suave */
+}
+
+#playButton:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
+    background-color: #0056b3; /* Cambio de color */
+}
+
+#playButton:active {
+    transform: scale(0.9); /* Efecto al hacer clic */
+}
+
+/* Botón Animado (Agrandar y Achicar) */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); /* Se agranda levemente */
+    }
+}
+
+#playButton {
+    animation: pulse 2s infinite; /* Repite la animación */
+}

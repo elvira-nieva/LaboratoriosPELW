@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <nav class="barra">
+        <ul>
+            <li><a href="index.html">Inicio</a></li> 
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="juego.html">Juego</a></li>
+
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-content">
+       <h1>Juego de Cartas</h1>
+   </header>
+   <main>
+    <p class="game-details">Para probar tu memoria visual y musical, creé este juego de pares con las tapas de algunos de los mejores álbumes de Argentina. Para jugar, pulsa este botón:</p>
+        <button id="playButton">Jugar</button>
+   </main>
+
+   <footer> 
+    <nav>
+        <ul>
+            <li><a href="juego.html">Inicio de la página</a>
+            <a href="#"><i class='bx bxs-up-arrow-circle'></i></a></li>
+        </ul>
+    </nav>
+    © Elvira Nieva <br> 
+    Email: elviranieva8@gmail.com <br>
+    Dirección del CURZA: Monseñor Esandi y Ayacucho, 8500 - Viedma, Río Negro, Argentina
+</footer>
+
+</body>
+<script>
+    // Redirigir a la página del juego de cartas
+    document.getElementById('playButton').addEventListener('click', () => {
+        window.location.href = "cartas.html"; // Cambia a la ruta correcta
+    });
+</script>
+</html>
